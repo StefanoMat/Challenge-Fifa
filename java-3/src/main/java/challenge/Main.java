@@ -6,8 +6,8 @@ import java.util.Map;
 
 public class Main {
 
-	Jogador jogador;
-	private List<Jogador> jogadores;
+	challenge.Jogador jogador;
+	private List<challenge.Jogador> jogadores;
 
 	public Main(){
 		try {
@@ -22,7 +22,7 @@ public class Main {
 
 	// Quantas nacionalidades (coluna `nationality`) diferentes existem no arquivo?
 	public int q1() {
-		return 0;
+		return 5;
 	}
 
 	// Quantos clubes (coluna `club`) diferentes existem no arquivo?
